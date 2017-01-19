@@ -1,4 +1,4 @@
-package com.simple.web.controller;
+package com.simple.controller;
 
 import com.simple.comtroller.SimpleController;
 import org.junit.Before;
@@ -29,7 +29,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = MockServletContext.class)
 @WebAppConfiguration
-public class HelloWorldControllerTest {
+public class ControllerTest {
     private MockMvc mvc;
 
     @Before
